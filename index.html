@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivam's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="logo">शिवम् मौर्य</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="section-indicator"></div>
+    </div>
+  </nav>
+
+  <section class="home" id="home">
+    <div class="hero-container">
+      <div class="profile-section">
+        <div class="terminal-greeting">
+          <div class="terminal-header">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+            <span class="terminal-title">Terminal - shivam@portfolio</span>
+          </div>
+          <div class="terminal-content">
+              <p class="terminal-line">$ whoami</p>
+              <p class="terminal-line">Hi, I'm Shivam Maurya — Modular Web Architect & Full-Stack Developer</p>
+              <p class="terminal-line">$ cat about.txt</p>
+              <p class="terminal-line">Crafting scalable platforms with clean code and elegant design.</p>
+              <p class="terminal-line">$ ls skills/</p>
+              <p class="terminal-line">Python C++ JavaScript PHP MySQL React HTML CSS XAMPP</p>
+              <span class="cursor">_</span>
+          </div>
+        </div>
+      </div>
+      <div class="floating-icons">
+        <div class="icon react"><i class="fab fa-react"></i></div>
+        <div class="icon node"><i class="fab fa-node-js"></i></div>
+        <div class="icon python"><i class="fab fa-python"></i></div>
+        <div class="icon cpp"><i class="fas fa-code"></i></div>
+      </div>
+    </div>
+    <div class="profile-image">
+        <img src="images/profile-photo.png" alt="Shivam Maurya - Profile Photo" />
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+            <p>I'm Shivam Maurya, a full-stack developer and modular web architect . I specialize in building scalable, branded platforms with clean code, elegant design, and a deep focus on user experience. My journey in tech began with a spark of curiosity and has grown into a mission to craft digital solutions that are both powerful and personal.</p>
+            <p>Whether it's designing intuitive interfaces, optimizing backend logic, or mapping hyper-local delivery zones, I thrive on solving real-world challenges with precision and creativity. I take pride in writing efficient, maintainable code and structuring projects that scale seamlessly across devices and audiences.</p>
+            <p>Outside of development, I’m immersed in competitive programming, exploring emerging technologies, and refining my GitHub presence with custom metrics and contribution graphs. I believe in continuous learning, rapid iteration, and the power of collaboration to push boundaries and build something truly meaningful.</p>
+        </div>
+        <div class="code-highlight">
+            <pre><code>const developer = {
+              name: 'Shivam Maurya',
+              location: 'Lucknow, Uttar Pradesh, India',
+              role: 'Modular Web Architect & Full-Stack Developer',
+              skills: ['Python', 'C++', 'JavaScript', 'PHP', 'MySQL', 'React', 'HTML', 'CSS', 'XAMPP'],
+              passion: 'Crafting scalable, branded platforms with elegant design',
+              mindset: 'Modular thinking, clean code, rapid iteration, and continuous learning',
+              interests: ['Competitive programming', 'UI/UX design', 'GitHub metrics', 'Hyper-local logistics']
+            };</code></pre>
+        </div>
+      </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-container">
+      <h2>Skills & Tech Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-icon react-icon"><i class="fab fa-react"></i></div>
+          <span>React</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon node-icon"><i class="fab fa-node-js"></i></div>
+          <span>Node.js</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon python-icon"><i class="fab fa-python"></i></div>
+          <span>Python</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon cpp-icon"><i class="fas fa-code"></i></div>
+          <span>C++</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon html-icon"><i class="fab fa-html5"></i></div>
+          <span>HTML5</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon css-icon"><i class="fab fa-css3-alt"></i></div>
+          <span>CSS3</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon js-icon"><i class="fab fa-js"></i></div>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon mysql-icon"><i class="fas fa-database"></i></div>
+          <span>My SQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-container">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- <div class="project-card">
+          <div class="project-image">
+            <img src="project1.jpg" alt="Polynomial Calculator" />
+          </div>
+          <div class="project-content">
+            <h3>Polynomial Calculator</h3>
+            <p>Advanced C++ application for polynomial operations using linked lists. Features efficient algorithms for addition and multiplication with dynamic memory management.</p>
+            <div class="project-tech">
+              <span>C++</span>
+              <span>Data Structures</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn github">GitHub</a>
+              <a href="#" class="btn demo">Live Demo</a>
+            </div>
+          </div>
+        </div> -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/logo.png" alt="Documint - Document Management System" />
+          </div>
+          <div class="project-content">
+            <h3>Documint</h3>
+            <p>Modern, accessible web form with responsive design, form validation, and enhanced user experience. Built with semantic HTML and advanced CSS techniques.</p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>MY SQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/shivammaurya2903/documint" class="btn github">GitHub</a>
+              <a href="https://documint.free.nf/" class="btn demo">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="section-container">
+      <h2>Experience & Achievements</h2>
+      <div class="experience-timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Full-Stack Development Projects</h3>
+            <p>Developed multiple web applications and tools, showcasing proficiency in both frontend and backend technologies.</p>
+            <span class="timeline-date">2025 - Present</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Algorithmic Problem Solving</h3>
+            <p>Regular participant in coding competitions and hackathons, with a focus on efficient algorithm design and optimization.</p>
+            <span class="timeline-date">2025 - Present</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Open Source Contributions</h3>
+            <p>Active contributor to various open-source projects, improving code quality and collaborating with global developer communities.</p>
+            <span class="timeline-date">2025 - Present</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <h2>Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+              <span>shivammaurya2903@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fab fa-linkedin"></i></span>
+              <a href="https://www.linkedin.com/in/shivam-maurya-2a3a24347/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fab fa-github"></i></span>
+              <a href="https://github.com/shivammaurya2903" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Shivam Maurya. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/shivam-maurya-2a3a24347/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/shivammaurya2903" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
