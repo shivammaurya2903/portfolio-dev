@@ -41,21 +41,7 @@ The site features a responsive layout, interactive animations, and a theme toggl
    git clone https://github.com/shivammaurya2903/portfolio-dev.git
    cd portfolio-dev
 
-portfolio-website/
-│
-├── index.html          # Main homepage
-├── about.html          # About Me page (optional)
-├── projects.html       # Projects showcase (optional)
-│
-├── /assets
-│   ├── /css
-│   │   └── styles.css  # Global styles
-│   ├── /js
-│   │   └── script.js   # Theme toggle, interactivity
-│   ├── /images         # Profile picture, project images
-│   └── /icons          # SVG or icon assets
-│
-└── README.md           # Project documentation
+
 
 
 
