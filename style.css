@@ -748,6 +748,336 @@ footer {
   }
 }
 
+@media (max-width: 430px) {
+  .nav-container {
+    padding: 15px 10px;
+  }
+
+  .logo {
+    font-size: 1.4rem;
+    overflow-wrap: break-word;
+  }
+
+  nav ul {
+    gap: 18px;
+  }
+
+  nav ul li a {
+    font-size: 0.95rem;
+    overflow-wrap: break-word;
+  }
+
+  .hero-container {
+    padding: 0 10px;
+    gap: 25px;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 260px;
+  }
+
+  .terminal-greeting {
+    padding: 18px;
+  }
+
+  .terminal-line {
+    font-size: 1rem;
+    overflow-wrap: break-word;
+  }
+
+  .icon {
+    font-size: 1.9rem;
+  }
+
+  section {
+    padding: 85px 18px;
+  }
+
+  .section-container {
+    padding: 28px 18px;
+  }
+
+  section h2 {
+    font-size: 2.1rem;
+    margin-bottom: 35px;
+    overflow-wrap: break-word;
+  }
+
+  .about-text {
+    flex-direction: column;
+    gap: 18px;
+    padding: 18px;
+  }
+
+  .about-text p {
+    font-size: 1.05rem;
+    margin-bottom: 18px;
+    overflow-wrap: break-word;
+  }
+
+  .code-highlight {
+    padding: 18px;
+    font-size: 0.95rem;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-x: auto;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 18px;
+  }
+
+  .skill-item {
+    padding: 18px;
+  }
+
+  .skill-item span {
+    overflow-wrap: break-word;
+  }
+
+  .skill-icon {
+    font-size: 2.1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .project-content {
+    padding: 22px;
+  }
+
+  .project-content h3 {
+    font-size: 1.4rem;
+    overflow-wrap: break-word;
+  }
+
+  .project-content p {
+    font-size: 1rem;
+    overflow-wrap: break-word;
+  }
+
+  .project-tech span {
+    font-size: 0.85rem;
+    padding: 5px 9px;
+    overflow-wrap: break-word;
+  }
+
+  .experience-timeline::before {
+    left: 22px;
+  }
+
+  .timeline-item {
+    padding-left: 55px;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.15rem;
+    overflow-wrap: break-word;
+  }
+
+  .timeline-content p {
+    font-size: 1rem;
+    overflow-wrap: break-word;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .contact-item {
+    padding: 14px;
+    gap: 12px;
+  }
+
+  .contact-item span {
+    overflow-wrap: break-word;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 14px;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+  }
+
+  .btn {
+    padding: 9px 18px;
+    font-size: 0.95rem;
+    overflow-wrap: break-word;
+  }
+
+  footer {
+    padding: 35px 18px;
+  }
+
+  .footer-content p {
+    overflow-wrap: break-word;
+  }
+
+  .social-links {
+    gap: 25px;
+  }
+
+  .social-links a {
+    overflow-wrap: break-word;
+  }
+}
+
+@media (max-width: 414px) {
+  .nav-container {
+    padding: 15px 10px;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  nav ul {
+    gap: 15px;
+  }
+
+  nav ul li a {
+    font-size: 0.9rem;
+  }
+
+  .hero-container {
+    padding: 0 10px;
+    gap: 20px;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 240px;
+  }
+
+  .terminal-greeting {
+    padding: 15px;
+  }
+
+  .terminal-line {
+    font-size: 0.95rem;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+  }
+
+  section {
+    padding: 80px 15px;
+  }
+
+  .section-container {
+    padding: 25px 15px;
+  }
+
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .about-text {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .code-highlight {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+  }
+
+  .skill-item {
+    padding: 15px;
+  }
+
+  .skill-icon {
+    font-size: 2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+
+  .project-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-content p {
+    font-size: 0.95rem;
+  }
+
+  .project-tech span {
+    font-size: 0.8rem;
+    padding: 4px 8px;
+  }
+
+  .experience-timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    padding-left: 50px;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .timeline-content p {
+    font-size: 0.95rem;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .contact-item {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 30px 15px;
+  }
+
+  .social-links {
+    gap: 20px;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
