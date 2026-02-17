@@ -676,8 +676,9 @@ footer {
   }
 
   .profile-image {
-    width: 150px;
-    height: 150px;
+    /* width: 150px;
+    height: 150px; */
+    display: none;
   }
 
   .terminal-greeting {
